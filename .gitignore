@@ -1,0 +1,19 @@
+# Jupyter Notebooks
+*.ipynb
+
+# Model Weights & Checkpoints
+model_weights/
+*.pt
+
+# Specific Datasets & Training Folders
+text_block.v2-manga-dataset.yolov8/
+train/
+
+# VS Code / Code Runner Temp Files
+tempCodeRunner*
+
+# Images
+*.jpeg
+*.jpg
+
+venv/
