@@ -14,7 +14,7 @@ from langchain_core.output_parsers import StrOutputParser
 # 1. Global Initialization (Runs once when server starts)
 # ---------------------------------------------------------
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyAtZfIx6G5VYu2NjN_ay09ljgy0BLp30RI"  # Replace securely
+    os.environ["GOOGLE_API_KEY"] = ""  # Replace securely
 
 # Initialize LLM & Chain
 llm = ChatGoogleGenerativeAI(model="gemini-3.1-flash-lite-preview", temperature=0)
